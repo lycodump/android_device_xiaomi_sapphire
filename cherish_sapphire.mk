@@ -12,14 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sapphire/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Include our private certificate
 -include vendor/lineage-priv/keys/keys.mk
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-PRODUCT_NAME := lineage_sapphire
+PRODUCT_NAME := cherish_sapphire
 PRODUCT_DEVICE := sapphire
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
