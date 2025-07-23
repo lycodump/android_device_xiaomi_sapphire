@@ -9,6 +9,14 @@ include device/xiaomi/sm6225-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
 include vendor/xiaomi/sapphire/BoardConfigVendor.mk
+# Architecture
+TARGET_ARCH := arm64
+TARGET_ARCH_VARIANT := armv8-a
+TARGET_CPU_VARIANT := cortex-a73
+TARGET_ARCH_BITS := 64
+TARGET_SUPPORTS_32_BIT_APPS := false
+TARGET_2ND_ARCH_VARIANTS_ENABLED := false
+BOARD_VNDK_VERSION := 33
 
 DEVICE_PATH := device/xiaomi/sapphire
 KERNEL_PATH := $(DEVICE_PATH)-kernel
