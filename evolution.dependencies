@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "lycodump/android_device_xiaomi_sapphire",
+    "target_path": "device/xiaomi/sapphire",
+    "remote": "github-non-los",
+    "branch": "bq2"
+  },
+  {
+    "repository": "lycodump/android_device_xiaomi_sm6225-common",
+    "target_path": "device/xiaomi/sm6225-common",
+    "remote": "github-non-los",
+    "branch": "bq2"
+  },
+  {
+    "repository": "lycodump/android_vendor_xiaomi_sapphire",
+    "target_path": "vendor/xiaomi/sapphire",
+    "remote": "github-non-los",
+    "branch": "lineage-23.0"
+  },
+  {
+    "repository": "lycodump/android_vendor_xiaomi_sm6225-common",
+    "target_path": "vendor/xiaomi/sm6225-common",
+    "remote": "github-non-los",
+    "branch": "16"
+  },
+  {
+    "repository": "lycodump/android_device_xiaomi_sapphire-kernel",
+    "target_path": "device/xiaomi/sapphire-kernel",
+    "remote": "github-non-los",
+    "branch": "16"
+  },
+  {
+    "repository": "lycodump/hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "remote": "github-non-los",
+    "branch": "bka-no-dolby"
+  }
+]
